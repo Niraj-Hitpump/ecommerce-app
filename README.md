@@ -41,29 +41,10 @@ A modern e-commerce platform for men's and women's clothing built with Next.js, 
    cd stylehub-ecommerce
    ```
 
-2. Install dependencies:
-   ```bash
-   npm install
-   # or
-   yarn install
-   ```
-
-3. Set up environment variables:
-   Create a `.env.local` file in the root directory with the following variables:
-   ```
-   MONGODB_URI=mongodb://localhost:27017/ecommerce
-   NEXTAUTH_URL=http://localhost:3000
-   NEXTAUTH_SECRET=your-secret-key-change-this-in-production
-   ADMIN_EMAIL=admin@example.com
-   ADMIN_PASSWORD=password123
-   ```
+2. Install dependencies
 
 4. Start the development server:
-   ```bash
-   npm run dev
-   # or
-   yarn dev
-   ```
+
 
 5. Open [http://localhost:3000](http://localhost:3000) in your browser to see the application.
 
@@ -85,17 +66,6 @@ A modern e-commerce platform for men's and women's clothing built with Next.js, 
    ```bash
    node scripts/check-mongodb.js
    ```
-
-#### MongoDB Atlas (Cloud)
-
-1. Create a free account at [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
-2. Create a new cluster
-3. Get your connection string from the Atlas dashboard
-4. Update your `.env.local` file with the connection string:
-   ```
-   MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/ecommerce?retryWrites=true&w=majority
-   ```
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
@@ -112,23 +82,4 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 
 ### MongoDB Connection Issues
 
-If you encounter MongoDB connection issues:
 
-1. Check if MongoDB is running:
-   ```bash
-   node scripts/check-mongodb.js
-   ```
-
-2. Verify your connection string in `.env.local`
-
-3. If using MongoDB Atlas, ensure your IP address is whitelisted in the Atlas dashboard
-
-### Authentication Issues
-
-If you encounter authentication issues:
-
-1. Make sure your `.env.local` file has the correct `NEXTAUTH_SECRET` and `NEXTAUTH_URL`
-
-2. Try clearing your browser cookies and local storage
-
-3. Check the server logs for any error messages
