@@ -96,42 +96,6 @@ A modern e-commerce platform for men's and women's clothing built with Next.js, 
    MONGODB_URI=mongodb+srv://<username>:<password>@<cluster>.mongodb.net/ecommerce?retryWrites=true&w=majority
    ```
 
-## Admin Access
-
-Access the admin dashboard at [http://localhost:3000/admin](http://localhost:3000/admin)
-
-Default admin credentials:
-- Email: admin@example.com
-- Password: password123
-
-## Project Structure
-
-```
-stylehub-ecommerce/
-├── src/
-│   ├── app/                  # Next.js App Router
-│   │   ├── api/              # API Routes
-│   │   ├── admin/            # Admin pages
-│   │   ├── cart/             # Cart page
-│   │   ├── login/            # Login page
-│   │   ├── register/         # Register page
-│   │   ├── profile/          # User profile page
-│   │   ├── men/              # Men's category page
-│   │   ├── women/            # Women's category page
-│   │   └── ...
-│   ├── components/           # React components
-│   │   ├── admin/            # Admin components
-│   │   ├── layout/           # Layout components
-│   │   ├── home/             # Home page components
-│   │   └── ...
-│   ├── lib/                  # Utility functions
-│   ├── models/               # Mongoose models
-│   ├── providers/            # Context providers
-│   └── types/                # TypeScript type definitions
-├── public/                   # Static assets
-└── ...
-```
-
 ## License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
