@@ -29,3 +29,15 @@ A modern e-commerce platform for men's and women's clothing built with Next.js, 
 #Home_Page
 ![Home](https://github.com/Niraj-Hitpump/ecommerce-app/blob/master/images/home.png).
 
+#Male_Section
+![Home](https://github.com/Niraj-Hitpump/ecommerce-app/blob/master/images/malec.png).
+
+#Female_Section
+![Home](https://github.com/Niraj-Hitpump/ecommerce-app/blob/master/images/femalec.png).
+
+#Favourite
+![Home](https://github.com/Niraj-Hitpump/ecommerce-app/blob/master/images/favourite.png).
+
+#Cart
+![Home](https://github.com/Niraj-Hitpump/ecommerce-app/blob/master/images/cart.png).
+
