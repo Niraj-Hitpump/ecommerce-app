@@ -27,5 +27,5 @@ A modern e-commerce platform for men's and women's clothing built with Next.js, 
 
 ## Getting Started
 #Home_Page
-![Home] (https://github.com/Niraj-Hitpump/ecommerce-app/blob/master/images/home.png).
+![Home](https://github.com/Niraj-Hitpump/ecommerce-app/blob/master/images/home.png).
 
