@@ -1,6 +1,6 @@
 # StyleHub E-commerce Platform
 
-A modern e-commerce platform for men's and women's clothing built with Next.js, TypeScript, Tailwind CSS, and MongoDB.
+A modern E-commerce platform for men's and women's clothing built with Next.js, TypeScript, Tailwind CSS, and MongoDB.
 
 ## Features
 
