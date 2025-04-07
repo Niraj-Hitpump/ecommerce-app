@@ -26,7 +26,7 @@ A modern E-commerce platform for men's and women's clothing built with Next.js, 
 - **Notifications**: React Hot Toast
 
 ## Getting Started
-#Home_Page
+#Home_Page.
 ![Home](https://github.com/Niraj-Hitpump/ecommerce-app/blob/master/images/home.png).
 
 #Male_Section
